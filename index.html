@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html class="b-page-slider" lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>
+    </title>
+    <link rel="stylesheet" href="css/main.css?v=1566467025675">
+  </head>
+  <body class="slideOne">
+    <div class="b-btns">
+      <button class="b-btn-back" id="moveUp"> <span>BACK</span></button>
+      <button class="b-btn-next" id="moveDown"> <span>NEXT</span></button>
+    </div>
+    <div class="b-main" id="js-fullpage">
+      <div class="b-screen b-screen--main">
+        <div class="b-entry" uk-scrollspy="cls:uk-animation-fade; delay: 500; repeat: true;"></div>
+        <div class="b-center">
+          <div class="b-screen__img b-screen__img--door"></div>
+          <div class="b-screen__img b-screen__img--buildL" uk-scrollspy="cls:uk-animation-fade; delay: 500; repeat: true;"></div>
+          <div class="b-screen__img b-screen__img--buildR" uk-scrollspy="cls:uk-animation-fade; delay: 500; repeat: true;"></div>
+          <div class="b-screen__img b-screen__img--man"></div>
+          <div class="b-screen__img b-screen__img--flower"><span uk-scrollspy="cls:uk-animation-slide-left; delay: 500; repeat: true;"></span><span uk-scrollspy="cls:uk-animation-slide-right; delay: 500; repeat: true;"></span></div>
+        </div>
+      </div>
+      <section class="js-screen b-screen b-screen--one active" data-section-name="slideOne">
+        <div class="b-entry" uk-scrollspy="cls:uk-animation-fade; delay: 500; repeat: true;">
+          <h3 class="b-tit">Say <strong>hello  </strong>to Steve.</h3>
+          <p>His fleet is integrated with DIRECTOR which gives him incredible visibility. <br>But what does visibility really mean for your business and your bottom line?</p>
+        </div>
+        <div class="b-center">
+          <div class="b-screen__img b-screen__img--ipad" uk-scrollspy="cls:uk-animation-fade; delay: 500; repeat: true;"></div>
+        </div>
+      </section>
+      <section class="js-screen b-screen b-screen--two" id="slideTwo" data-section-name="slideTwo">
+        <div class="b-entry" uk-scrollspy="cls:uk-animation-fade; delay: 500; repeat: true;">
+          <h3 class="b-tit">Visibility means you can <span>optimise your operations.</span></h3>
+        </div>
+        <div class="b-center">
+          <div class="b-screen__img b-screen__img--ipad2" uk-scrollspy="cls:uk-animation-fade; delay: 500; repeat: true;">
+            <div class="b-dialog" uk-scrollspy="cls:uk-animation-fade; delay: 1000; repeat: true;">
+              <p>Broadcasting Messaging Win!</p>
+              <button class="b-btn-arrow" id="ipad" data-container="#slideTwo" data-toggle="popover" data-contentwrapper="#ipadpopover"></button>
+            </div>
+          </div>
+          <div class="b-screen__img b-screen__img--table" uk-scrollspy="cls:uk-animation-slide-bottom; delay: 500; repeat: true;">
+            <div class="b-dialog" uk-scrollspy="cls:uk-animation-fade; delay: 1000; repeat: true;">
+              <p>No More Unfair Fines</p>
+              <button class="b-btn-arrow" id="table" data-container="#slideTwo" data-placement="top" data-toggle="popover" data-contentwrapper="#tablepopover"></button>
+            </div>
+          </div>
+          <div class="b-screen__img b-screen__img--calendar" uk-scrollspy="cls:uk-animation-slide-left; delay: 500; repeat: true;">
+            <div class="b-dialog b-dialog--right" uk-scrollspy="cls:uk-animation-fade; delay: 1000; repeat: true;">
+              <p>Maximise Efficiency</p>
+              <button class="b-btn-arrow" id="calendar" data-container="#slideTwo" data-placement="left" data-toggle="popover" data-contentwrapper="#calendarpopover"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="js-screen b-screen b-screen--three" id="slideThree" data-section-name="slideThree">
+        <div class="b-entry" uk-scrollspy="cls:uk-animation-fade; delay: 500; repeat: true;">
+          <h3 class="b-tit">Visibility means you are <span>on top of Health & Safety.</span></h3>
+        </div>
+        <div class="b-center">
+          <div class="b-screen__img b-screen__img--photo" uk-scrollspy="cls:uk-animation-slide-left; delay: 500; repeat: true;">
+            <div class="b-dialog" uk-scrollspy="cls:uk-animation-fade; delay: 1000; repeat: true;">
+              <p>I’ve got those <br>happy fleet...</p>
+              <button class="b-btn-arrow" id="photo" data-container="#slideThree" data-toggle="popover" data-contentwrapper="#photopopover"></button>
+            </div>
+          </div>
+          <div class="b-screen__img b-screen__img--certified" uk-scrollspy="cls:uk-animation-slide-left; delay: 500; repeat: true;">
+            <div class="b-dialog b-dialog--right" uk-scrollspy="cls:uk-animation-fade; delay: 1000; repeat: true;">
+              <p>No nasty surprises for Steve</p>
+              <button class="b-btn-arrow" id="certified" data-container="#slideThree" data-placement="bottom" data-toggle="popover" data-contentwrapper="#certifiedpopover"></button>
+            </div>
+          </div>
+          <div class="b-screen__img b-screen__img--strategy" uk-scrollspy="cls:uk-animation-fade; delay: 1000; repeat: true;">
+            <div class="b-dialog b-dialog--center-r" uk-scrollspy="cls:uk-animation-fade; delay: 1000; repeat: true;">
+              <p>It’s all in the strategy</p>
+              <button class="b-btn-arrow" id="strategy" data-container="#slideThree" data-placement="top" data-toggle="popover" data-contentwrapper="#strategypopover"></button>
+            </div>
+          </div>
+          <div class="b-screen__img b-screen__img--graph" uk-scrollspy="cls:uk-animation-slide-right; delay: 500; repeat: true;">
+            <div class="b-dialog b-dialog--right" uk-scrollspy="cls:uk-animation-fade; delay: 1000; repeat: true;">
+              <p>A safe fleet means a profitable business</p>
+              <button class="b-btn-arrow" id="graph" data-container="#slideThree" data-placement="left" data-toggle="popover" data-contentwrapper="#graphpopover"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="js-screen b-screen b-screen--four" id="slideFour" data-section-name="slideFour">
+        <div class="b-entry" uk-scrollspy="cls:uk-animation-fade; delay: 500; repeat: true;">
+          <h3 class="b-tit">Visibility means your drivers can <span>be amazing at their job</span></h3>
+        </div>
+        <div class="b-center">
+          <div class="b-screen__img b-screen__img--lamp" uk-scrollspy="cls:uk-animation-slide-top; delay: 500; repeat: true;">
+            <div class="b-dialog" uk-scrollspy="cls:uk-animation-fade; delay: 1000; repeat: true;">
+              <p>Accurate incident reporting</p>
+              <button class="b-btn-arrow" id="lamp" data-container="#slideFour" data-placement="top" data-toggle="popover" data-contentwrapper="#lamppopover"></button>
+            </div>
+          </div>
+          <div class="b-screen__img b-screen__img--calculator" uk-scrollspy="cls:uk-animation-fade; delay: 500; repeat: true;"></div>
+          <div class="b-screen__img b-screen__img--board" uk-scrollspy="cls:uk-animation-slide-right; delay: 500; repeat: true;">
+            <div class="b-dialog b-dialog--center" uk-scrollspy="cls:uk-animation-fade; delay: 1000; repeat: true;">
+              <p>Reporting for duty!</p>
+              <button class="b-btn-arrow" id="board" data-container="#slideFour" data-toggle="popover" data-contentwrapper="#boardpopover"></button>
+            </div>
+          </div>
+          <div class="b-screen__img b-screen__img--mirror" uk-scrollspy="cls:uk-animation-slide-left; delay: 500; repeat: true;">
+            <div class="b-dialog" uk-scrollspy="cls:uk-animation-fade; delay: 1000; repeat: true;">
+              <p>Safety Analytics is <br>a life saver</p>
+              <button class="b-btn-arrow" id="mirror" data-container="#slideFour" data-placement="bottom" data-toggle="popover" data-contentwrapper="#mirrorpopover"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="js-screen b-screen b-screen--five" id="slideFive" data-section-name="slideFive">
+        <div class="b-entry" uk-scrollspy="cls:uk-animation-fade; delay: 500; repeat: true;">
+          <h3 class="b-tit">Visibility means customers <span>are always delighted.</span></h3>
+        </div>
+        <div class="b-center">
+          <div class="b-screen__img b-screen__img--two-man" uk-scrollspy="cls:uk-animation-fade; delay: 1000; repeat: true;">
+            <div class="b-dialog b-dialog--right" uk-scrollspy="cls:uk-animation-fade; delay: 1000; repeat: true;">
+              <p>Another happy customer!</p>
+              <button class="b-btn-arrow" id="two-man" data-container="#slideFive" data-placement="top" data-toggle="popover" data-contentwrapper="#two-manpopover"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div id="ipadpopover" style="display: none;"><span class="b-btn-close js-close-pop" data-target="#ipad"><span>&times;</span></span>
+      <div class="img img--ipad"></div>
+      <h4 class="tit">Broadcast Messaging Win!</h4>
+      <div class="entry">
+        <p>Steve can warn his drivers of traffic disruptions before it’s too late. He sends an instant message via DIRECTOR to his entire fleet who are able to avoid traffic caused by a major accident on the M6. That’s precious time and money saved!</p>
+      </div><a class="b-btn b-btn--play" href="#"> <span>WATCH Broadcast Messaging </span><span class="icon"></span></a>
+    </div>
+    <div id="calendarpopover" style="display: none;"><span class="b-btn-close js-close-pop" data-target="#calendar"><span>&times;</span></span>
+      <div class="img img--calendar"></div>
+      <h4 class="tit">Maximise efficiency</h4>
+      <div class="entry">
+        <p>The visibility Steve gets from DIRECTOR means his fleet can complete more jobs in a week. A more efficient fleet means a more profitable business!</p>
+      </div><a class="b-btn b-btn--read" href="#"> <span>READ more in our online Blog</span><span class="icon"></span></a>
+    </div>
+    <div id="tablepopover" style="display: none;"><span class="b-btn-close js-close-pop" data-target="#table"><span>&times;</span></span>
+      <div class="img img--table"></div>
+      <h4 class="tit">No more unfair fines</h4>
+      <div class="entry">
+        <p>One of Steve’s drivers was late to deliver goods today and incurred demurrage. <br>Not so fast! Steve’s granular visibility over the delivery site means he can prove it wasn’t the driver’s fault. Want to see how?</p>
+      </div><a class="b-btn b-btn--play" href="#"> <span>WATCH our live site animation</span><span class="icon"></span></a>
+    </div>
+    <div id="lamppopover" style="display: none;"><span class="b-btn-close js-close-pop" data-target="#lamp"><span>&times;</span></span>
+      <div class="img img--lamp"></div>
+      <h4 class="tit">Accurate incident reporting</h4>
+      <div class="entry">
+        <p>DIRECTOR gives Steve precise data on how his drivers are performing. He can see any incidents of harsh braking, idling, speeding and more! This means he can tailor his feedback and encourage his team effectively.</p>
+      </div><a class="b-btn b-btn--play" href="#"><span>WATCH to see how it works</span><span class="icon"></span></a>
+    </div>
+    <div id="boardpopover" style="display: none;"><span class="b-btn-close js-close-pop" data-target="#board"><span>&times;</span></span>
+      <div class="img img--board"></div>
+      <h4 class="tit">Reporting for duty!</h4>
+      <div class="entry">
+        <p>Build Your Own Reports gives you complete control when it comes to generating reports about your business. Choose exactly what data is included and make the report look how you want. A drag and drop interface makes it super simple - you’ll be up and running in minutes.</p>
+      </div><a class="b-btn b-btn--play" href="#"> <span>WATCH to see how it works</span><span class="icon"></span></a>
+    </div>
+    <div id="mirrorpopover" style="display: none;"><span class="b-btn-close js-close-pop" data-target="#mirror"><span>&times;</span></span>
+      <div class="img img--mirror"></div>
+      <h4 class="tit">Safety Analytics is a life saver</h4>
+      <div class="entry">
+        <p>The safety analytics module let’s Steve see dashcam footage at any time – no more waiting for vehicles to return to base. </p>
+      </div><a class="b-btn b-btn--play" href="#"> <span>WATCH to see how it works</span><span class="icon"></span></a>
+    </div>
+    <div id="photopopover" style="display: none;"><span class="b-btn-close js-close-pop" data-target="#photo"><span>&times;</span></span>
+      <div class="img img--photo"></div>
+      <h4 class="tit">I’ve got those happy fleet…</h4>
+      <div class="entry">
+        <p>Steve’s drivers can spend up to 40+ hours per week out on the road by themselves, but just because they’re alone doesn’t mean they’re invisible. Having complete visibility stretches to your lone workers too, and although Steve may not be able to physically see them each day, he can still support them in their wellbeing.  </p>
+      </div><a class="b-btn b-btn--read" href="#"> <span>READ more and see how online</span><span class="icon"></span></a>
+    </div>
+    <div id="certifiedpopover" style="display: none;"><span class="b-btn-close js-close-pop" data-target="#certified"><span>&times;</span></span>
+      <div class="img img--certified"></div>
+      <h4 class="tit">No nasty surprises for Steve!</h4>
+      <div class="entry">
+        <p>All of his vehicle maintenance is scheduled through DIRECTOR. Steve has complete visibility over when his vehicles need service and certificate renewals.</p>
+      </div><a class="b-btn b-btn--play" href="#"> <span>WATCH to see how it works</span><span class="icon"></span></a>
+    </div>
+    <div id="strategypopover" style="display: none;"><span class="b-btn-close js-close-pop" data-target="#strategy"><span>&times;</span></span>
+      <div class="img img--strategy"></div>
+      <h4 class="tit">It’s all in the strategy</h4>
+      <div class="entry">
+        <p>Technological advances have provided Steve with a detailed picture of the way his drivers and vehicles perform. These insights help form the foundation of a fleet safety strategy. </p>
+      </div><a class="b-btn b-btn--read" href="#"> <span>READ our Safety Strategy Tips</span><span class="icon"></span></a>
+    </div>
+    <div id="graphpopover" style="display: none;"><span class="b-btn-close js-close-pop" data-target="#graph"><span>&times;</span></span>
+      <div class="img img--graph"></div>
+      <h4 class="tit">A safe fleet means a <br>profitable busines</h4>
+      <div class="entry">
+        <p>Steve was surprised to see profitability increase as his drivers became safer. Improved visibility also improved the reputation of the business. </p>
+      </div><a class="b-btn b-btn--read" href="#"> <span>READ our Checklist online</span><span class="icon"></span></a>
+    </div>
+    <div id="two-manpopover" style="display: none;"><span class="b-btn-close js-close-pop" data-target="#two-man"><span>&times;</span></span>
+      <div class="img img--two-man"></div>
+      <h4 class="tit">Another happy customer!</h4>
+      <div class="entry">
+        <p>Customer satisfaction has been up since Steve and his team switched to DIRECTOR. The incredible visibility Steve has over his fleet helps the business surpass expectations and deliver on promises</p>
+      </div><a class="b-btn b-btn--play" href="#"> <span>WATCH to see how it works</span><span class="icon"></span></a>
+    </div>
+    <script src="js/vendor.js?v=1566467025675"></script>
+    <script src="js/main.js?v=1566467025675"></script>
+  </body>
+</html>
